@@ -5,8 +5,8 @@
   --navy-deep: #1e365a;
   --orange: #d9534f;
   --orange-dark: #b94340;
-  --cream: #e0f2e0;
-  --paper: #e0f2e0;
+  --cream: #f5f1e8;
+  --paper: #fffdf9;
   --ink: #4a4a4a;
   --muted: #626b62;
   --line: #c9ddc9;
@@ -29,7 +29,7 @@ a { color: inherit; text-decoration: none; }
 
 .site-header {
   height: 82px;
-  background: rgba(224, 242, 224, .94);
+  background: rgba(255, 253, 249, .94);
   border-bottom: 1px solid rgba(42, 75, 124, .1);
   display: flex;
   align-items: center;
@@ -48,20 +48,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: -.5px;
 }
 .brand strong { color: var(--orange); }
-.brand-mark {
-  width: 38px; height: 38px; border-radius: 50%;
-  background: var(--orange); display: grid; place-items: center;
-  transform: rotate(-8deg);
-}
-.brand-road {
-  width: 11px; height: 24px; border-radius: 8px;
-  border: 3px solid white; border-top-color: transparent; border-bottom-color: transparent;
-  position: relative;
-}
-.brand-road::after {
-  content: ""; position: absolute; left: 2px; top: 2px; height: 14px;
-  border-left: 2px dashed white;
-}
+.brand-logo { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; display: block; }
 .nav-actions { display: flex; align-items: center; gap: 24px; }
 .nav-note { font-size: 13px; font-weight: 600; color: var(--muted); }
 .button {
@@ -209,7 +196,7 @@ h1 {
 .benefit h3 { color: white; }
 .benefit p { color: #b5c1c5; margin-bottom: 0; }
 
-.qualify { background: var(--paper); }
+.qualify { background: #f8f5ee; }
 .qualify-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }
 .qualify-art { height: 475px; position: relative; overflow: hidden; border-radius: 4px; background: #cfe4cf; }
 .road { position: absolute; inset: -120px 20px -160px -110px; background: #344951; transform: rotate(25deg); box-shadow: inset 42px 0 #b7b4a9, inset -42px 0 #b7b4a9; }
@@ -272,7 +259,7 @@ footer .brand { color: white; }
   .site-header { height: 70px; }
   .nav-note { display: none; }
   .brand { font-size: 17px; }
-  .brand-mark { width: 33px; height: 33px; }
+  .brand-logo { width: 36px; height: 36px; }
   .button-small { min-height: 40px; padding: 0 14px; }
   .hero-grid { padding-top: 60px; min-height: unset; }
   h1 { font-size: 49px; letter-spacing: -3px; }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import logo from "../img/logo.png";
 
 const CTA_URL = "https://help.accidentandy.com/lp1";
 
@@ -9,9 +10,7 @@ const Arrow = () => <span aria-hidden="true">→</span>;
 function Brand() {
   return (
     <a className="brand" href="#top" aria-label="Accident Andy home">
-      <span className="brand-mark" aria-hidden="true">
-        <span className="brand-road" />
-      </span>
+      <img className="brand-logo" src={logo.src} alt="" aria-hidden="true" />
       <span>Accident <strong>Andy</strong></span>
     </a>
   );
