@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import logo from "../img/logo.png";
 
 const CTA_URL = "https://help.accidentandy.com/lp1";
@@ -256,6 +257,10 @@ export default function Home() {
           Attorney advertising. Accident Andy is not a law firm and does not provide legal advice.
           We connect consumers with attorneys and legal support services. Submission of information
           does not create an attorney-client relationship.
+          <nav className="legal-links" aria-label="Legal">
+            <Link href="/terms-of-service/">Terms of Service</Link>
+            <Link href="/privacy-policy/">Privacy Policy</Link>
+          </nav>
         </div>
       </footer>
     </main>
