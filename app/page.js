@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+const CTA_URL = "https://help.accidentandy.com/lp1";
+
 const Arrow = () => <span aria-hidden="true">→</span>;
 
 function Brand() {
@@ -26,9 +28,6 @@ function CheckIcon() {
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(0);
 
-  const scrollToReview = () =>
-    document.getElementById("case-review")?.scrollIntoView({ behavior: "smooth" });
-
   const faqs = [
     [
       "Does it cost anything?",
@@ -52,9 +51,9 @@ export default function Home() {
           <Brand />
           <div className="nav-actions">
             <span className="nav-note">Free case review</span>
-            <button className="button button-small" onClick={scrollToReview}>
+            <a className="button button-small" href={CTA_URL}>
               Get Started <Arrow />
-            </button>
+            </a>
           </div>
         </div>
       </header>
@@ -73,9 +72,9 @@ export default function Home() {
               attorney who may be able to review your case.
             </p>
             <div className="hero-cta">
-              <button className="button button-large" onClick={scrollToReview}>
+              <a className="button button-large" href={CTA_URL}>
                 Get Started <Arrow />
-              </button>
+              </a>
               <div className="microcopy">
                 <span className="shield">✓</span>
                 <span>Free to check your eligibility.<br />No obligation.</span>
@@ -104,7 +103,7 @@ export default function Home() {
               <p>Were you injured in a car accident?</p>
               <div className="answer selected"><span>Yes</span><span>✓</span></div>
               <div className="answer"><span>No</span><span>○</span></div>
-              <button className="card-next" onClick={scrollToReview}>Continue <Arrow /></button>
+              <a className="card-next" href={CTA_URL}>Continue <Arrow /></a>
               <small>Your information stays private &amp; secure.</small>
             </div>
             <div className="case-badge">
@@ -160,7 +159,7 @@ export default function Home() {
             <span className="kicker light">Built around you</span>
             <h2>Why Use<br />Accident Andy?</h2>
             <p>Finding the right legal help shouldn’t add more stress to an already difficult situation.</p>
-            <button className="text-link" onClick={scrollToReview}>Start your free review <Arrow /></button>
+            <a className="text-link" href={CTA_URL}>Start your free review <Arrow /></a>
           </div>
           <div className="benefit-grid">
             {[
@@ -205,7 +204,7 @@ export default function Home() {
               ].map((item) => <li key={item}><span>✓</span>{item}</li>)}
             </ul>
             <p>Even if you’re unsure whether you have a case, it’s worth checking.</p>
-            <button className="button" onClick={scrollToReview}>Check My Eligibility <Arrow /></button>
+            <a className="button" href={CTA_URL}>Check My Eligibility <Arrow /></a>
           </div>
         </div>
       </section>
@@ -241,7 +240,7 @@ export default function Home() {
           <h2>Don’t Wait to Learn<br />Your Options</h2>
           <p>Evidence can disappear, memories fade, and deadlines may apply depending on your state.</p>
           <p>Find out whether you may qualify to speak with a car accident attorney today.</p>
-          <a className="button button-light button-large" href="mailto:intake@accidentandy.com?subject=Free Case Review">
+          <a className="button button-light button-large" href={CTA_URL}>
             Start Your Free Case Review <Arrow />
           </a>
           <small>Free to check. No obligation.</small>
