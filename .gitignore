@@ -1,0 +1,144 @@
+#
+# /package-lock.json
+#
+*sublime*
+**sublime**
+**Gulp Results**
+#
+/*vhost.conf
+/node_modules
+# composer.lock
+/php/classes/**/vendor/
+# htaccess because of problem with git
+/.htaccess
+# /logs/*.json
+**/logs/*.json
+# telegram proto
+**/libs/**/sessions/*madeline*
+**/libs/**/madeline.php
+/madeline.phar
+/madeline.phar.version
+/MadelineProto.log
+
+/uploads/*
+!/uploads/.htaccess
+
+/_/*
+!/_/.htaccess
+!/_/**.prod
+
+# shop imgs
+/img-food/*
+/img-food-uk/*
+/img-shop/*
+
+tmp-sessions/*
+# telegram proto
+# /_ssl_localhost
+# /*
+# ### template assets
+# !/.gitignore
+# #
+# !/*.css
+# !/*.js
+# !/_css
+# !/_js
+# !/_less
+# /_less/dev/css/
+# !/a
+# !/_fonts/
+# !/_html/
+# !/_maintenance/
+# !/_ssl_localhost/
+# ### custom path for admin
+# !/administrator
+# /administrator/*
+# !/administrator/.htaccess
+# !/zi0n3w/
+# ### 3-d components patched files
+# !/administrator/components/
+# /administrator/components/*
+# # akeeba backup to cloud
+# !/administrator/components/com_akeeba/
+# /administrator/components/com_akeeba/*
+# !/administrator/components/com_akeeba/BackupEngine/
+# /administrator/components/com_akeeba/BackupEngine/*
+# !/administrator/components/com_akeeba/BackupEngine/Postproc/
+# /administrator/components/com_akeeba/BackupEngine/Postproc/*
+# !/administrator/components/com_akeeba/BackupEngine/Postproc/Googledrive.php
+# !/administrator/components/com_akeeba/BackupEngine/Postproc/Connector/
+# /administrator/components/com_akeeba/BackupEngine/Postproc/Connector/*
+# !/administrator/components/com_akeeba/BackupEngine/Postproc/Connector/GoogleDrive.php
+# # akeeba backup to cloud /z
+# # ekerlab power content fixes
+# !/administrator/components/com_epc/
+# /administrator/components/com_epc/*
+# !/administrator/components/com_epc/libraries/
+# /administrator/components/com_epc/libraries/*
+# !/administrator/components/com_epc/libraries/elfinder/
+# /administrator/components/com_epc/libraries/elfinder/*
+# # /administrator/components/com_epc/libraries/elfinder/package.json - you can ignore this file, can't exclude it
+# !/administrator/components/com_epc/libraries/elfinder/php/
+# /administrator/components/com_epc/libraries/elfinder/php/*
+# !/administrator/components/com_epc/libraries/elfinder/php/connector.minimal.php
+# #
+# !/administrator/components/com_epc/libraries/EpcContentFields/
+# /administrator/components/com_epc/libraries/EpcContentFields/*
+# !/administrator/components/com_epc/libraries/EpcContentFields/EpcContentFieldsMaker.php
+# # ekerlab power content fixes /z
+# # custom admin styles
+# !/administrator/templates/
+# /administrator/templates/*
+# !/administrator/templates/isis/
+# /administrator/templates/isis/*
+# !/administrator/templates/isis/css
+# /administrator/templates/isis/css/*
+# !/administrator/templates/isis/css/custom.css
+# # custom admin styles /z
+# ### z3w
+# !/plugins/
+# /plugins/*
+# !/plugins/obgrabber-adapter/
+# /plugins/obgrabber-adapter/*
+# !/plugins/obgrabber-adapter/content/
+# /plugins/obgrabber-adapter/content/*
+# !/plugins/obgrabber-adapter/content/content.php
+# #
+# !/plugins/authentication/
+# /plugins/authentication/*
+# !/plugins/authentication/socialnetworks/
+# /plugins/authentication/socialnetworks/*
+# !/plugins/authentication/socialnetworks/helper.php
+# # !/_cron
+# # !/pogoda
+# !/language/
+# /language/*
+# !/language/overrides/
+# #
+# !/templates/
+# /templates/*
+# !/templates/z3w_1_3_1/
+# ### root folder files
+# !*.dev
+# !*.prod
+# !*.htaccess
+# !.htaccess
+# !browserconfig.xml
+# !cache.htaccess
+# !gulpfile.js
+# !icons.html
+# # !manifest.json
+# !package.json
+# !sw.js
+# #
+# .idea
+# .vscode
+# .atom
+# *sublime*
+# **sublime**
+# /node_modules
+# *.log
+
+
+/php/projects/_pages/aso-apps/accs/*
+!/php/projects/_pages/aso-apps/accs/.htaccess
