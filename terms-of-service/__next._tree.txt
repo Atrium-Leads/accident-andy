@@ -1,0 +1,3 @@
+:HL["/accident-andy/_next/static/chunks/1kl9s_0wy776f.css","style"]
+:HL["/accident-andy/_next/static/media/logo.1gczr9lm9oe69.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"terms-of-service","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Os6lM_upUwo1ykU-ywaGx"}
