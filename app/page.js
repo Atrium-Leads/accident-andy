@@ -260,6 +260,7 @@ export default function Home() {
           <nav className="legal-links" aria-label="Legal">
             <Link href="/terms-of-service/">Terms of Service</Link>
             <Link href="/privacy-policy/">Privacy Policy</Link>
+            <Link href="/sponsors/">Sponsors</Link>
           </nav>
         </div>
       </footer>
