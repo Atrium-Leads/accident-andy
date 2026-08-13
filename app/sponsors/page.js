@@ -17,6 +17,7 @@ export default function Sponsors() {
     "Inbounds LLC",
     "IM Solutions, LLC",
     "Goldwater Law Firm",
+    "Lawfty Law LLP",
     "Leads.net LLC",
     "Legal Support Services",
     "Legenex LLC",
