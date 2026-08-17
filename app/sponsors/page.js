@@ -7,7 +7,6 @@ export const metadata = {
 
 export default function Sponsors() {
   const partners = [
-    "1800TheLaw2",
     "AdMediary, LLC",
     "Advertise4Sales Inc",
     "Duke Digital Group",
@@ -21,7 +20,6 @@ export default function Sponsors() {
     "Leads.net LLC",
     "Legal Support Services",
     "Legenex LLC",
-    "Los Defensores",
     "Quintessa Marketing",
   ];
 
