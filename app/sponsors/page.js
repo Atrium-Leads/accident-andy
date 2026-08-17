@@ -13,6 +13,7 @@ export default function Sponsors() {
     "Email Agency, Inc.",
     "EverContractor LLC",
     "FadiLaw Marketing, LLC",
+    "HQ Intake LLC",
     "Inbounds LLC",
     "IM Solutions, LLC",
     "Goldwater Law Firm",
