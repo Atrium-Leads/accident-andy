@@ -25,7 +25,7 @@ export default function Sponsors() {
     "Legal Support Services",
     "Legenex LLC",
     "Palomedia",
-    "Reyes Browne Law"
+    "Reyes Browne Law",
     "Quintessa Marketing",
   ];
 
