@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Sponsors() {
   const partners = [
-    "Accident.com"
+    "Accident.com",
     "AdMediary, LLC",
     "Adopt-A-Contractor",
     "Adventum",
