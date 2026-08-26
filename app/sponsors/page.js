@@ -30,7 +30,7 @@ export default function Sponsors() {
   ];
 
   return (
-    <LegalPage title="Sponsors" updated="August 1, 2026">
+    <LegalPage title="Sponsors" updated="August 25, 2026">
       <p>
         Accident Andy is an advertising and marketing service and is not a
         law firm or lawyer referral service. We help connect individuals
