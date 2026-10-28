@@ -7,6 +7,7 @@ export const metadata = {
 
 export default function Sponsors() {
   const partners = [
+    "1800-THE-LAW2",
     "4LegalLeads",
     "Accident.com",
     "AdMediary, LLC",
@@ -25,6 +26,7 @@ export default function Sponsors() {
     "Leads.net LLC",
     "Legal Support Services",
     "Legenex LLC",
+    "Los Defensores",
     "Palomedia",
     "Reyes Browne Law",
     "Quintessa Marketing",
