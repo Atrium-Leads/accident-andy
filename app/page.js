@@ -209,6 +209,32 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="calc-promo" id="claim-estimate">
+        <div className="container calc-promo-inner">
+          <div className="calc-promo-copy">
+            <span className="kicker">Free tool</span>
+            <h2>Wondering What Your Claim Could Be Worth?</h2>
+            <p>
+              Get a free estimate in about a minute, based on your medical bills, lost wages,
+              and how serious your injury is. No personal information required.
+            </p>
+            <Link className="button button-outline" href="/injury-calculator/">
+              Try the Injury Calculator <Arrow />
+            </Link>
+          </div>
+          <Link className="calc-promo-card" href="/injury-calculator/" aria-label="Open the injury calculator">
+            <span className="calc-result-label">Estimated claim range</span>
+            <strong>$24,500 <span>–</span> $31,500</strong>
+            <dl>
+              <div><dt>Medical costs</dt><dd>$7,000</dd></div>
+              <div><dt>Lost wages &amp; other costs</dt><dd>$3,500</dd></div>
+              <div><dt>Pain &amp; suffering</dt><dd>$14,000 – $21,000</dd></div>
+            </dl>
+            <small>Example only. Your estimate depends on your situation.</small>
+          </Link>
+        </div>
+      </section>
+
       <section className="section faq">
         <div className="container faq-grid">
           <div className="section-heading">
