@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import logo from "../img/logo-horizontal.png";
 
-const CTA_URL = "https://help.accidentandy.com/lp1";
+const CTA_URL = "https://help.accidentandy.com/lp5";
 
 const Arrow = () => <span aria-hidden="true">→</span>;
 

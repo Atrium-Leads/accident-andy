@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const CTA_URL = "https://help.accidentandy.com/lp1";
+const CTA_URL = "https://help.accidentandy.com/lp5";
 
 const SEVERITY = [
   { id: "minor", label: "Minor", detail: "Soft-tissue injury (sprains, whiplash, bruising). Recovered within a few weeks.", low: 1.5, high: 2 },

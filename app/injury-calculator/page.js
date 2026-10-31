@@ -2,7 +2,7 @@ import Link from "next/link";
 import logo from "../../img/logo-horizontal.png";
 import InjuryCalculator from "../components/InjuryCalculator";
 
-const CTA_URL = "https://help.accidentandy.com/lp1";
+const CTA_URL = "https://help.accidentandy.com/lp5";
 
 export const metadata = {
   title: "Car Accident Injury Settlement Calculator | Accident Andy",
