@@ -50,6 +50,7 @@ export default function Home() {
           <Brand />
           <div className="nav-actions">
             <span className="nav-note">Free case review</span>
+            <Link className="nav-link" href="/injury-calculator/"><span className="nav-long">Injury </span>Calculator</Link>
             <a className="button button-small" href={CTA_URL}>
               Get Started <Arrow />
             </a>

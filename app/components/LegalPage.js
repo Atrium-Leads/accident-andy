@@ -9,7 +9,10 @@ export default function LegalPage({ title, updated, children }) {
           <Link className="brand" href="/" aria-label="Accident Andy home">
             <img className="brand-logo" src={logo.src} alt="Accident Andy" width={logo.width} height={logo.height} />
           </Link>
-          <Link className="legal-home-link" href="/">Back to home</Link>
+          <div className="nav-actions">
+            <Link className="nav-link" href="/injury-calculator/"><span className="nav-long">Injury </span>Calculator</Link>
+            <Link className="legal-home-link" href="/">Back to home</Link>
+          </div>
         </div>
       </header>
 
