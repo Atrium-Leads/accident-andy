@@ -1,5 +1,5 @@
 import Link from "next/link";
-import logo from "../../img/logo.png";
+import logo from "../../img/logo-horizontal.png";
 
 export default function LegalPage({ title, updated, children }) {
   return (
@@ -7,8 +7,7 @@ export default function LegalPage({ title, updated, children }) {
       <header className="site-header">
         <div className="container nav">
           <Link className="brand" href="/" aria-label="Accident Andy home">
-            <img className="brand-logo" src={logo.src} alt="" aria-hidden="true" />
-            <span>Accident <strong>Andy</strong></span>
+            <img className="brand-logo" src={logo.src} alt="Accident Andy" width={logo.width} height={logo.height} />
           </Link>
           <Link className="legal-home-link" href="/">Back to home</Link>
         </div>

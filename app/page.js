@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import logo from "../img/logo.png";
+import logo from "../img/logo-horizontal.png";
 
 const CTA_URL = "https://help.accidentandy.com/lp1";
 
@@ -11,8 +11,7 @@ const Arrow = () => <span aria-hidden="true">→</span>;
 function Brand() {
   return (
     <a className="brand" href="#top" aria-label="Accident Andy home">
-      <img className="brand-logo" src={logo.src} alt="" aria-hidden="true" />
-      <span>Accident <strong>Andy</strong></span>
+      <img className="brand-logo" src={logo.src} alt="Accident Andy" width={logo.width} height={logo.height} />
     </a>
   );
 }

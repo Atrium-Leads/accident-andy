@@ -48,7 +48,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: -.5px;
 }
 .brand strong { color: var(--orange); }
-.brand-logo { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; display: block; }
+.brand-logo { height: 66px; width: auto; display: block; }
 .nav-actions { display: flex; align-items: center; gap: 24px; }
 .nav-note { font-size: 13px; font-weight: 600; color: var(--muted); }
 .button {
@@ -281,7 +281,7 @@ footer .brand { color: white; }
   .site-header { height: 70px; }
   .nav-note { display: none; }
   .brand { font-size: 17px; }
-  .brand-logo { width: 36px; height: 36px; }
+  .brand-logo { height: 44px; width: auto; }
   .button-small { min-height: 40px; padding: 0 14px; }
   .hero-grid { padding-top: 60px; min-height: unset; }
   h1 { font-size: 49px; letter-spacing: -3px; }
