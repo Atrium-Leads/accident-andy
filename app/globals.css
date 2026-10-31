@@ -463,3 +463,20 @@ footer .brand { color: white; }
   .tag-two { bottom: 70px; }
   .case-badge { left: 10px; bottom: 22px; }
 }
+
+/* Larger icons */
+.step-icon { width: 92px; height: 92px; }
+.step-icon .ui-icon { width: 40px; height: 40px; stroke-width: 1.7; }
+.step-icon > span:first-child { width: 32px; height: 32px; font-size: 12px; top: -4px; left: -4px; }
+.step-connector { top: 34px; }
+.benefit-icon { width: 68px; height: 68px; margin-bottom: 24px; }
+.benefit-icon .ui-icon { width: 34px; height: 34px; stroke-width: 1.7; }
+.qualify-copy li span { width: 30px; height: 30px; font-size: 15px; }
+.trust-inner svg { width: 22px; height: 22px; }
+@media (max-width: 720px) {
+  .step { padding-left: 104px; min-height: 92px; }
+  .step-icon { width: 80px; height: 80px; }
+  .step-icon .ui-icon { width: 36px; height: 36px; }
+  .benefit-icon { width: 62px; height: 62px; }
+  .benefit-icon .ui-icon { width: 30px; height: 30px; }
+}
