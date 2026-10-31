@@ -424,3 +424,42 @@ footer .brand { color: white; }
   .calc-promo-inner { padding: 30px 22px; }
   .calc-promo-card { transform: none; }
 }
+
+/* Consistent icon sizing */
+.ui-icon { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; display: block; }
+.step-icon { color: var(--navy); }
+.step-icon > span:first-child { width: 28px; height: 28px; font-size: 11px; top: -6px; left: -6px; }
+.benefit-icon { width: 50px; height: 50px; background: rgba(92,184,92,.18); }
+.benefit-icon .ui-icon { width: 24px; height: 24px; }
+.benefit:nth-child(-n+2) { padding-top: 38px; }
+.qualify-copy li span { width: 26px; height: 26px; font-size: 13px; }
+
+/* Hero preview card: readable proportions */
+.review-card { width: 360px; padding: 24px 26px 22px; }
+.review-top { font-size: 11px; margin-bottom: 22px; align-items: center; }
+.dot { width: 8px; height: 8px; }
+.secure { padding: 4px 9px; }
+.step-label { font-size: 11px; }
+.review-card h2 { font-size: 26px; }
+.review-card > p { font-size: 15px; }
+.answer { height: 50px; font-size: 14px; padding: 0 16px; }
+.card-next { height: 48px; font-size: 14px; }
+.review-card small { font-size: 11px; }
+.floating-tag { font-size: 12.5px; padding: 11px 16px 11px 34px; }
+.tag-one { left: -10px; top: 128px; }
+.case-badge { left: 30px; bottom: 60px; padding: 12px 18px; }
+.badge-check { width: 34px; height: 34px; }
+.case-badge strong { font-size: 13px; }
+.case-badge small { font-size: 11px; }
+.trust-inner span { font-size: 13px; }
+.trust-inner svg { width: 18px; height: 18px; }
+@media (max-width: 720px) {
+  .trust-inner span { font-size: 12px; }
+  .review-card { width: 330px; }
+}
+.tag-one { top: 18px; left: 40px; }
+@media (max-width: 720px) {
+  .tag-one { top: 30px; left: 10px; }
+  .tag-two { bottom: 70px; }
+  .case-badge { left: 10px; bottom: 22px; }
+}

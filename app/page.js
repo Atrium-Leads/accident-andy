@@ -24,6 +24,20 @@ function CheckIcon() {
   );
 }
 
+const ICONS = {
+  form: <><rect x="5" y="3" width="14" height="18" rx="2" /><path d="M9 3.5h6v2H9zM8.5 10h7M8.5 13.5h7M8.5 17h4" /></>,
+  search: <><circle cx="11" cy="11" r="6" /><path d="m20 20-4.5-4.5" /></>,
+  phone: <path d="M6.6 3.5h2.8l1.4 4-2 1.3a11 11 0 0 0 6.4 6.4l1.3-2 4 1.4v2.8a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z" />,
+  bolt: <path d="M13 2.5 5 13.5h6l-1 8 8-11h-6z" />,
+  dollar: <><circle cx="12" cy="12" r="9" /><path d="M14.8 9.2c-.4-1-1.5-1.7-2.8-1.7-1.6 0-2.8.9-2.8 2.2 0 3 5.6 1.6 5.6 4.6 0 1.3-1.2 2.2-2.8 2.2-1.4 0-2.5-.7-2.9-1.8M12 6v1.5M12 16.5V18" /></>,
+  pin: <><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" /></>,
+  check: <><circle cx="12" cy="12" r="9" /><path d="m8 12.3 2.7 2.7L16 9.7" /></>,
+};
+
+function Icon({ name }) {
+  return <svg className="ui-icon" viewBox="0 0 24 24" aria-hidden="true">{ICONS[name]}</svg>;
+}
+
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(0);
 
@@ -140,9 +154,7 @@ export default function Home() {
               <article className="step" key={num}>
                 <div className="step-icon">
                   <span>{num}</span>
-                  {index === 0 && <span className="icon-lines">≡</span>}
-                  {index === 1 && <span className="icon-lines">⌕</span>}
-                  {index === 2 && <span className="icon-lines">◡</span>}
+                  <Icon name={["form", "search", "phone"][index]} />
                 </div>
                 <h3>{title}</h3>
                 <p>{text}</p>
@@ -163,13 +175,13 @@ export default function Home() {
           </div>
           <div className="benefit-grid">
             {[
-              ["↗", "Fast", "Complete the questionnaire in just a few minutes."],
-              ["$", "Free", "There’s no cost to see if you may qualify to speak with an attorney."],
-              ["◎", "Nationwide", "We work with legal professionals serving clients across the United States."],
-              ["✓", "Simple", "No searching through dozens of law firms. We help connect you with one that may be a good fit."],
+              ["bolt", "Fast", "Complete the questionnaire in just a few minutes."],
+              ["dollar", "Free", "There’s no cost to see if you may qualify to speak with an attorney."],
+              ["pin", "Nationwide", "We work with legal professionals serving clients across the United States."],
+              ["check", "Simple", "No searching through dozens of law firms. We help connect you with one that may be a good fit."],
             ].map(([icon, title, text]) => (
               <article className="benefit" key={title}>
-                <span className="benefit-icon">{icon}</span>
+                <span className="benefit-icon"><Icon name={icon} /></span>
                 <h3>{title}</h3>
                 <p>{text}</p>
               </article>
